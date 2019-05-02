@@ -21,8 +21,7 @@ setup(name='duckduckgo-search-api',
       license='MIT',
       packages=[
           'duckduckgo',
-          'duckduckgo.modules',
-          'duckduckgo.tests'
+          'duckduckgo.modules'
       ],
       package_dir={'duckduckgo': 'duckduckgo'},
       include_package_data=True,
